@@ -22,3 +22,8 @@ class Manager extends Employee {
     }
 }
 
+//Step 4: Create a smaple of employees and managers 
+const emp1 = new Employee("Kenzie", "sales")
+const emp2 = new Employee("Nicole", "Marketing")
+const mgr1 = new Manager("Shira", "Engineering", 8)
+const mgr2 = new Manager("Guilia", "Finance", 5)
