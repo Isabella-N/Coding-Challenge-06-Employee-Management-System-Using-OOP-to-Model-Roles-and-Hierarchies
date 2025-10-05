@@ -27,3 +27,19 @@ const emp1 = new Employee("Kenzie", "sales")
 const emp2 = new Employee("Nicole", "Marketing")
 const mgr1 = new Manager("Shira", "Engineering", 8)
 const mgr2 = new Manager("Guilia", "Finance", 5)
+
+//Step 5: Create a Company Class
+class Company {
+    constructor() {
+        this.employees = []; 
+    }
+    addEmployee(employee) {
+        this.employees.push(employee)
+    }
+    listEmployees() {
+        this.employees.forEach(emp => {
+            console.log(emp.describe());
+        });
+    }
+}
+
